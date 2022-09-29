@@ -1,10 +1,9 @@
 package com.company;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Main {
+public class OpenNavigateClose {
 
     public static void main(String[] args) {
 	// write your code here
