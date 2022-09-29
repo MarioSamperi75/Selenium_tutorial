@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class FindElemen_SendKeys {
+public class B_FindElement_SendKeys {
 
     public static void main(String[] args) {
 
@@ -26,7 +26,15 @@ public class FindElemen_SendKeys {
         // OR
         //WebElement search = driver.findElement(By.id("dictionary-search")) ;
         //search.sendKeys("cat");
-        driver.findElement(By.name("q")).sendKeys("mouse");
+
+        //by Name
+        //driver.findElement(By.name("q")).sendKeys("mouse");
+
+        //by LinkText and partialLinkText
+        //driver.findElement(By.linkText("engelska")).click();
+        driver.findElement(By.partialLinkText("gelska")).click();
+
+        // class is not unique you shouldn't use to find one element... but many?
 
 
 

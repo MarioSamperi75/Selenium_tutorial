@@ -3,7 +3,7 @@ package com.company;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class OpenNavigateClose {
+public class A_OpenNavigateClose {
 
     public static void main(String[] args) {
 	// write your code here
