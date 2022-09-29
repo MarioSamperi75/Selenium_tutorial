@@ -18,6 +18,7 @@ public class Main {
 
        */
 
+
         System.setProperty("webdriver.gecko.driver","C:/Users/mario/Javamapp/18TestAutomation/selenium_jar_and_drivers/firefox_drivers/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
 
