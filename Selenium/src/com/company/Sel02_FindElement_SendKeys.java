@@ -2,13 +2,10 @@ package com.company;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.List;
 
-
-public class C_FindMultipleElements {
+public class Sel02_FindElement_SendKeys {
 
     public static void main(String[] args) {
 
@@ -35,25 +32,9 @@ public class C_FindMultipleElements {
 
         //by LinkText and partialLinkText
         //driver.findElement(By.linkText("engelska")).click();
-        //driver.findElement(By.partialLinkText("gelska")).click();
+        driver.findElement(By.partialLinkText("gelska")).click();
 
         // class is not unique you shouldn't use to find one element... but many?
-
-        //List<WebElement> links = driver.findElements(By.tagName("a"));
-        //System.out.println(links.size());
-
-       // for(WebElement link : links) {
-        //    System.out.println(link.getText());
-        //}
-
-        // you can use css class and combine them with css rules (tag#id[attribute=value]) (tag.class['attribute=value'])
-
-        //WebElement element = driver.findElement(By.cssSelector("..."));
-
-
-
-
-
 
 
 
